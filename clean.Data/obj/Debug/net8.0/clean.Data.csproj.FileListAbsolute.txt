@@ -32,3 +32,4 @@ C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.Data\obj\Debug\net
 C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.Data\obj\Debug\net8.0\clean.Data.pdb
 C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.Data\obj\Debug\net8.0\clean.Data.genruntimeconfig.cache
 C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.Data\obj\Debug\net8.0\ref\clean.Data.dll
+C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.Data\obj\Debug\net8.0\clean.Data.sourcelink.json

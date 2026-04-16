@@ -10,6 +10,18 @@ using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Fetch data from configuration
+string environment = builder.Environment.EnvironmentName;
+string connectionString = builder.Configuration["DbConnectionString"];
+string envCustomName = builder.Configuration["Env_Message"];
+
+// Print to the Console window
+Console.WriteLine("======================================");
+Console.WriteLine($"Current Environment: {environment}");
+Console.WriteLine($"Environment Message: {envCustomName}");
+Console.WriteLine($"Connection String: {connectionString}");
+Console.WriteLine("======================================");
+
 // Add services to the container.
 
 builder.Services.AddControllers().AddJsonOptions(options =>

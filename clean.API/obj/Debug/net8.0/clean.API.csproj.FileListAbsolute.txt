@@ -300,3 +300,5 @@ C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.API\obj\Debug\net8
 C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.API\obj\Debug\net8.0\clean.API.pdb
 C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.API\obj\Debug\net8.0\clean.API.genruntimeconfig.cache
 C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.API\obj\Debug\net8.0\ref\clean.API.dll
+C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.API\bin\Debug\net8.0\appsettings.Production.json
+C:\Users\user1\Desktop\miri\תכנות\דוטנט\clean\clean.API\obj\Debug\net8.0\clean.API.sourcelink.json

@@ -3,12 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|c:\\users\\user1\\desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|solutionrelative:clean.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|c:\\users\\user1\\desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|solutionrelative:clean.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|c:\\users\\user1\\desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|solutionrelative:clean.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C11212-5E61-4039-B732-672F9844D982}|clean.Data\\clean.Data.csproj|c:\\users\\user1\\desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4C11212-5E61-4039-B732-672F9844D982}|clean.Data\\clean.Data.csproj|solutionrelative:clean.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\AppData\\Roaming\\Microsoft\\UserSecrets\\8ac285ee-3d8a-4704-a592-b2d3fd6f0c29\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|c:\\users\\user1\\desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|solutionrelative:clean.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3961A930-A135-4F7A-85B3-88982BA6D915}|Solution Items{3961A930-A135-4F7A-85B3-88982BA6D915}|C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{3961A930-A135-4F7A-85B3-88982BA6D915}|Solution Items{3961A930-A135-4F7A-85B3-88982BA6D915}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|c:\\users\\user1\\desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|solutionrelative:clean.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3961A930-A135-4F7A-85B3-88982BA6D915}|Solution Items{3961A930-A135-4F7A-85B3-88982BA6D915}|C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3961A930-A135-4F7A-85B3-88982BA6D915}|Solution Items{3961A930-A135-4F7A-85B3-88982BA6D915}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|c:\\users\\user1\\desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.api\\middlewares\\shabbatmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|solutionrelative:clean.api\\middlewares\\shabbatmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|c:\\users\\user1\\desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D972844-5F46-40A5-AC06-A4914AAA4638}|clean.API\\clean.API.csproj|solutionrelative:clean.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9825E56D-12AD-42C7-9765-F4F01910C1F0}|clean.Core\\clean.Core.csproj|c:\\users\\user1\\desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9825E56D-12AD-42C7-9765-F4F01910C1F0}|clean.Core\\clean.Core.csproj|solutionrelative:clean.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,28 +81,143 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "clean.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\appsettings.Development.json",
+              "RelativeToolTip": "clean.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T11:34:11.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "clean.API\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\appsettings.Production.json",
+              "RelativeToolTip": "clean.API\\appsettings.Production.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T11:31:14.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\user1\\AppData\\Roaming\\Microsoft\\UserSecrets\\8ac285ee-3d8a-4704-a592-b2d3fd6f0c29\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\8ac285ee-3d8a-4704-a592-b2d3fd6f0c29\\secrets.json",
+              "ToolTip": "C:\\Users\\user1\\AppData\\Roaming\\Microsoft\\UserSecrets\\8ac285ee-3d8a-4704-a592-b2d3fd6f0c29\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\8ac285ee-3d8a-4704-a592-b2d3fd6f0c29\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T11:28:51.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\appsettings.json",
+              "RelativeDocumentMoniker": "clean.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\appsettings.json",
+              "RelativeToolTip": "clean.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T11:25:45.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "clean.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "clean.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T10:41:52.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "clean.Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.Data\\DataContext.cs",
+              "RelativeToolTip": "clean.Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:38:58.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-17T19:48:00.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAABwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-17T19:44:06.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "clean.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.Core\\Models\\User.cs",
+              "RelativeToolTip": "clean.Core\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:36:33.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\Program.cs",
               "RelativeDocumentMoniker": "clean.API\\Program.cs",
               "ToolTip": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\Program.cs",
               "RelativeToolTip": "clean.API\\Program.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAAADgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T22:21:10.726Z"
+              "WhenOpened": "2026-03-10T22:21:10.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "ShabbatMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\Middlewares\\ShabbatMiddleware.cs",
               "RelativeDocumentMoniker": "clean.API\\Middlewares\\ShabbatMiddleware.cs",
               "ToolTip": "C:\\Users\\user1\\Desktop\\miri\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D3\u05D5\u05D8\u05E0\u05D8\\clean\\clean.API\\Middlewares\\ShabbatMiddleware.cs",
               "RelativeToolTip": "clean.API\\Middlewares\\ShabbatMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T01:22:04.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T01:22:04.294Z"
             }
           ]
         }

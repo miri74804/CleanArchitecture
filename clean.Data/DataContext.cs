@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using clean.Core.Entities;
 using clean.Core.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace clean.Data
 {
@@ -16,9 +17,17 @@ namespace clean.Data
         public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<Category> Categories { get; set; }
 
+        private readonly IConfiguration _configuration;
+
+        public DataContext(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=my_db");
+            optionsBuilder.UseSqlServer(_configuration["DbConnectionString"]);
         }
     }
 }
