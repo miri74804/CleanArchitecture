@@ -21,8 +21,8 @@ bld/
 *.sln.docstates
 
 # Appsettings (Ignore environment specific & secret files)
-appsettings.Development.json
-appsettings.Production.json
+# appsettings.Development.json
+# appsettings.Production.json
 secrets.json
 
 # Environment variables
