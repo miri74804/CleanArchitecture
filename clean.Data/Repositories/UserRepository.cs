@@ -22,5 +22,10 @@ namespace clean.Data.Repositories
         {
             return await _dbSet.Include(u => u.Tasks).Include(u => u.Profile).FirstOrDefaultAsync(u => u.Id == id);
         }
+
+        public async Task<User> GetUserByEmailAndPassword(string email, string password)
+        {
+            return await _dbSet.FirstOrDefaultAsync(user => user.Email == email && user.Password == password);
+        }
     }
 }

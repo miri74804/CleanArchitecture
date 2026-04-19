@@ -11,5 +11,6 @@ namespace clean.Core.Repositories
     {
         Task<List<User>> GetListWithIncludesAsync();
         Task<User> GetByIdWithIncludesAsync(int id);
+        Task<User> GetUserByEmailAndPassword(string email, string password);
     }
 }

@@ -4,6 +4,7 @@ using clean.Core.DTOs;
 using clean.Core.Entities;
 using clean.Core.Services;
 using clean.Service.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -26,6 +27,7 @@ namespace clean.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult> GetAsync()
         {
             var list = await _userService.GetAllAsync();
@@ -34,8 +36,15 @@ namespace clean.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult> GetByIdAsync(int id)
         {
+            var userIdFromToken = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            if (userIdFromToken != id.ToString())
+            {
+                return StatusCode(StatusCodes.Status403Forbidden, new { message = "You are not allowed to view other people's profiles!" });
+            }
             var user = await _userService.GetUserByIdAsync(id);
             if (user == null)
                 return NotFound($"User {id} not found");
@@ -54,8 +63,13 @@ namespace clean.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<ActionResult> PutAsync(int id, [FromBody] UserPostModel userModel)
         {
+            var userIdFromToken = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (userIdFromToken != id.ToString())
+                return StatusCode(StatusCodes.Status403Forbidden, new { message = "You can only update your own profile." });
+
             var userEntity = _mapper.Map<User>(userModel);
             var updatedUser = await _userService.UpdateUserAsync(id, userEntity);
 
@@ -67,8 +81,13 @@ namespace clean.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<ActionResult> DeleteAsync(int id)
         {
+            var userIdFromToken = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (userIdFromToken != id.ToString())
+                return StatusCode(StatusCodes.Status403Forbidden, new { message = "You cannot delete other users." });
+            
             var userDeleted = await _userService.DeleteUserAsync(id);
             if (userDeleted == null)
                 return NotFound();

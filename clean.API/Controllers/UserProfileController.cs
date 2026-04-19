@@ -5,6 +5,7 @@ using clean.Core.Entities;
 using clean.Core.Models;
 using clean.Core.Services;
 using clean.Service.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -14,6 +15,7 @@ namespace clean.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UserProfileController : ControllerBase
     {
         private readonly IUserProfileService _userProfileService;
@@ -36,6 +38,10 @@ namespace clean.API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult> GetByIdAsync(int id)
         {
+            var userIdFromToken = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (userIdFromToken != id.ToString())
+                return StatusCode(StatusCodes.Status403Forbidden, new { message = "You can only view your own profile details." });
+
             var profile = await _userProfileService.GetProfileByIdAsync(id);
             if (profile == null)
                 return NotFound($"Profile {id} not found");
@@ -47,7 +53,12 @@ namespace clean.API.Controllers
         [HttpPost]
         public async Task<ActionResult> PostAsync([FromBody] UserProfilePostModel profileModel)
         {
+            var userIdFromToken = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userIdFromToken))
+                return Unauthorized();
+            
             var profileEntity = _mapper.Map<UserProfile>(profileModel);
+            profileEntity.UserId = int.Parse(userIdFromToken);
             var createdProfile = await _userProfileService.AddProfileAsync(profileEntity);
 
             if (createdProfile == null)
@@ -60,6 +71,10 @@ namespace clean.API.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult> PutAsync(int id, [FromBody] UserProfilePostModel profileModel)
         {
+            var userIdFromToken = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (userIdFromToken != id.ToString())
+                return StatusCode(StatusCodes.Status403Forbidden, new { message = "You can only update your own profile." });
+
             var profileEntity = _mapper.Map<UserProfile>(profileModel);
             var updatedProfile = await _userProfileService.UpdateProfileAsync(id, profileEntity);
 
@@ -73,6 +88,10 @@ namespace clean.API.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteAsync(int id)
         {
+            var userIdFromToken = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            if (userIdFromToken != id.ToString())
+                return StatusCode(StatusCodes.Status403Forbidden, new { message = "You are not authorized to delete this profile." });
+            
             var deletedProfile = await _userProfileService.DeleteProfileAsync(id);
             if (deletedProfile == null)
                 return NotFound();

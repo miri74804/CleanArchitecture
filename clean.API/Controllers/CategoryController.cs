@@ -3,6 +3,7 @@ using clean.API.Models;
 using clean.Core.DTOs;
 using clean.Core.Models;
 using clean.Core.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -31,6 +32,7 @@ namespace clean.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult> GetByIdAsync(int id)
         {
             var category = await _categoryService.GetCategoryByIdAsync(id);
